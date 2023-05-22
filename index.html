@@ -5,13 +5,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20230522165845">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230523021544">
 	<title>Тестовое для Soft NSK</title>
 </head>
 
 <body>
 	<div class="wrapper">
-		<!---------------------------------------------- HEADER ----------------------------------------------->
 		<header class="header">
 			<div class="header__container">
 				<div class="header__body">
@@ -39,7 +38,6 @@
 			</div>
 		</header>
 		<main class="page">
-			<!---------------------------------------------- 1 Блок ----------------------------------------------->
 			<div class="page_main-block main-block">
 				<div class="main-block__container">
 					<div class="main-block__body">
@@ -153,15 +151,12 @@
 										<div class="form-checkout__column">
 											<div class="form-checkout__line">
 												<div class="form-checkout__slider slider">
-													<div class="slider__result">
-														<div id="result"></div>
-													</div>
 													<div class="slider__text">Sed ut perspiciatis, unde omnis iste
 														natus
 													</div>
-													<div class="slider__id" id="slider">
-														<div class="slider__item" id="item"></div>
-													</div>
+													<output for="rangeInput" class="slider__value">0%</output>
+													<input type="range" min="0" max="100" value="0" class="slider__input"
+														id="rangeInput">
 												</div>
 												<div class="form-checkout__input">
 													<div class="input__wrapper">
@@ -186,14 +181,12 @@
 
 					<div class="order__image _ibg">
 						<picture>
-							<!-------В PNG так как иначе размывается фон---------------->
-							<source srcset="img/bg_order.png"><img src="img/bg_order.png" alt="cover">
+							<source srcset="img/bg_order.png" type="image/webp"><img src="img/bg_order.png" alt="cover">
 						</picture>
 					</div>
 				</div>
 			</div>
 		</main>
-		<!---------------------------------------------- FOOTER ----------------------------------------------->
 		<footer class="footer">
 			<div class="footer__container">
 				<div class="footer__wrapper">
@@ -228,8 +221,8 @@
 			</div>
 		</footer>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js?_v=20230522165845"></script>
-	<script src="js/app.min.js?_v=20230522165845"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?_v=20230523021544"></script>
+	<script src="js/app.min.js?_v=20230523021544"></script>
 </body>
 
 </html>
